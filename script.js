@@ -98,3 +98,36 @@ console.log(typeof(b2))
 
 
 // Arrays and Objects
+// Arrays - List in python
+const names = ["John", "Jane", "Smith"]
+console.log(names[0])
+names.push("Any Name")
+console.log(names)
+names.pop()
+console.log(names)
+
+// Objects - Dictionary in python
+const person1 = {
+    name: "John",
+    age: 32,
+    city: "Sydney"
+}
+
+console.log(person1["name"])
+console.log(person1.city)
+person1.country = "Australia"
+console.log(person1)
+person1.age = 28
+console.log(person1)
+
+const person2 = {
+    name: "Jane",
+    age: 34,
+    address: {
+        city: "Brisbane",
+        country: "Australia"
+    }
+}
+// Optional chaining
+console.log(person2.address?.country)
+console.log(person2.lastName)
